@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "SmileySpotify",
+    "version": "1.0.0",
+    "description": "Browse your spotify playlist on YouTube!",
+    "action": {
+      "default_popup": "index.html",
+      "title": "SmileySpotify",
+      "default_icon": "nice-spotify.png"
+
+    },
+    "permissions": ["identity", "activeTab", "scripting", "tabs" ],
+    "host_permissions": ["*://*.youtube.com/*"]
+  }
